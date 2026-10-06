@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mcclienttimer",
+  "version": "${version}",
+  "name": "MC Client Timer",
+  "description": "A simple client-side countdown timer for Minecraft 26.1.2.",
+  "authors": [
+    "nna6048-ui"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nna6048.mcclienttimer.MCClientTimerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
